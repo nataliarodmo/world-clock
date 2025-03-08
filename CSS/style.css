@@ -1,6 +1,6 @@
 body{
     background-color: #F5F1FE;
-    font-family: "tenor-sans-regular"
+    font-family: "tenor-sans-regular";
 }
 h1  {
     text-align: center;
@@ -13,11 +13,14 @@ h2{
 }
 select{
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     padding: 10px;
     border-radius: 4px;
 
+}
+select, option{
+    font-family: "tenor-sans-regular"; ;
 }
 .date{
     opacity: 0.7;
@@ -34,13 +37,14 @@ select{
 .cities {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0 ;
-    padding: 20px 0;
+    margin: 20px 0;
+    padding: 20px 0 30px;
     border-bottom: 1px dashed rgba(0,0,0,0.3);
 
 }
 .cities:last-child{
-    border: none;
+    border-bottom: none;
+    
 }
 .time{
     font-size: 48px;
