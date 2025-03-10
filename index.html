@@ -15,31 +15,36 @@
 </head>
 <body>
     <div class="container">
-    <h1>World Clock</h1>    
-    <select name="city" id="city">
-        <option value="">Select a city</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
-    </select>
-    <div class="cities" id="bogota">
-        <div>
-        <h2>Bogota 🇨🇴</h2>
-        <div class="date"> March 4th 2025</div>
+        <h1>World Clock</h1>    
+        <select name="city" id="city">
+            <option value="">Select a city</option>
+            <option value="">Current Location</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+            <option value="America/Vancouver">Vancourver</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+        </select>
+    <div id="cities">
+        <div class="city" id="bogota">
+            <div>
+            <h2>Bogota 🇨🇴</h2>
+            <div class="date"></div>
+            </div>
+            <div>
+            <div class="time"></div>
+            </div>
+        </div>
+        <div class="city" id="rome">
+            <div>
+            <h2>Rome 🇮🇹</h2>
+            <div class="date"></div>
         </div>
         <div>
-        <div class="time"> 9:02:05 <small>PM </small> </div>
+            <div class="time"> </div>
         </div>
     </div>
-    <div class="cities" id="rome">
-        <div>
-        <h2>Rome 🇮🇹</h2>
-        <div class="date"> March 4th 2025</div>
-       </div>
-       <div>
-        <div class="time"> 9:02:05 <small>PM </small> </div>
-        </div>
-    </div>
+</div>
     </div>
     <footer>
         This project was coded with 💙 by <strong>Natalia R </strong> and is <a href="https://github.com/nataliarodmo/world-clock">open source on Gitbhub</a>
